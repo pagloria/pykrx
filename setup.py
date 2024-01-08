@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from pykrx import __version__
+# from pykrx import __version__
 
 # main_ns = {}
 # ver_path = convert_path('pykrx/version.py')
@@ -11,9 +11,9 @@ with open("README.md", "r", encoding='UTF-8') as fh:
 
 setup(
     name='pykrx',
-    version=__version__,
+    version='1.0.45',
     description='KRX data scraping',
-    url='https://github.com/sharebook-kr/pykrx',
+    url='https://github.com/pagloria/pykrx',
     author='Brayden Jo, Jonghun Yoo',
     author_email=('brayden.jo@outlook.com, '
                   'jonghun.yoo@outlook.com, '
